@@ -1,0 +1,107 @@
+﻿namespace ZebraPruebas
+{
+    class ClassJson
+    {
+    }
+    public class RootObject
+    {
+        public string StrIdProducto { get; set; }
+        public string StrDescripcion { get; set; }
+        public string Strauxiliar { get; set; }
+        public string StrCodAlterno { get; set; }
+        public string StrLinea { get; set; }
+        public string StrGrupo { get; set; }
+        public string StrClase { get; set; }
+        public string StrTipo { get; set; }
+        public string StrUnidad { get; set; }
+        public string StrUndCompra { get; set; }
+        public string StrMoneda { get; set; }
+        public string StrProveedor { get; set; }
+        public string IntPreciouno { get; set; }
+        public string IntPreciodos { get; set; }
+        public string IntPreciotres { get; set; }
+        public string IntPreciocuatro { get; set; }
+        public string IntPreciocinco { get; set; }
+        public string IntPrecio1 { get; set; }
+        public string IntPrecio2 { get; set; }
+        public string IntPrecio3 { get; set; }
+        public string IntPrecio4 { get; set; }
+        public string IntPrecio5 { get; set; }
+        public string IntPrecio6 { get; set; }
+        public string IntPrecio7 { get; set; }
+        public string IntPrecio8 { get; set; }
+        public string IntPorDesc1 { get; set; }
+        public string IntPorDesc2 { get; set; }
+        public string IntPorDesc3 { get; set; }
+        public string IntPorDesc4 { get; set; }
+        public string IntPorDesc5 { get; set; }
+        public string IntPorDesc6 { get; set; }
+        public string IntPorDesc7 { get; set; }
+        public string IntPorDesc8 { get; set; }
+        public string IntImpConsumo { get; set; }
+        public string IntPrecioSug { get; set; }
+        public string IntPrecioCompra { get; set; }
+        public string IntKardex { get; set; }
+        public string IntMovil { get; set; }
+        public string IntListaChequeo { get; set; }
+        public string IntManLote { get; set; }
+        public string IntIva { get; set; }
+        public string IntIvaMonofasico { get; set; }
+        public string IntRetencion { get; set; }
+        public string IntImpuesto1 { get; set; }
+        public string IntIca { get; set; }
+        public string IntVigente { get; set; }
+        public string IntMarcado { get; set; }
+        public string IntAIU { get; set; }
+        public string IntPorcentaje { get; set; }
+        public string IntPFactor { get; set; }
+        public string IntActualizaDescripcion { get; set; }
+        public string IntActualizaPrecio { get; set; }
+        public string IntCapturaCantidad { get; set; }
+        public string StrDescripcion1 { get; set; }
+        public string StrOrden { get; set; }
+        public string StrParam1 { get; set; }
+        public string StrParam2 { get; set; }
+        public string StrParam3 { get; set; }
+        public string StrPParametro1 { get; set; }
+        public string StrPParametro2 { get; set; }
+        public string StrPParametro3 { get; set; }
+        public string StrPParametro4 { get; set; }
+        public string StrPParametro5 { get; set; }
+        public string StrPParametro6 { get; set; }
+        public string IntDias { get; set; }
+        public string IntPuntos { get; set; }
+        public string IntPresupuesto { get; set; }
+        public string IntTotalCoef { get; set; }
+        public string IntDescuento { get; set; }
+        public string IntDescuentoMax { get; set; }
+        public string IntDescPromocion { get; set; }
+        public string DatFechaIPromocion { get; set; }
+        public string DatFechaFPromocion { get; set; }
+        public string IntControl { get; set; }
+        public string IntPeso { get; set; }
+        public string StrDescripcionCorta { get; set; }
+        public string DatFechaIProdHab { get; set; }
+        public string DatFechaFProdHab { get; set; }
+        public string DatFechaIProdNuevo { get; set; }
+        public string DatFechaFProdNuevo { get; set; }
+        public string IntHabilitar { get; set; }
+        public string IntBajoPedido { get; set; }
+        public string IntMostrarPedido { get; set; }
+        public string IntVisibilidad { get; set; }
+        public string IntMaximos { get; set; }
+        public string IntMinimos { get; set; }
+        public string IntHabilitarProd { get; set; }
+        public string DatFechaAct { get; set; }
+        public string DatFechaSmart { get; set; }
+        public string Borrar { get; set; }
+        public string IntCompuesto { get; set; }
+        public string Clase { get; set; }
+        public string Tipo { get; set; }
+        public string Grupo { get; set; }
+        public string Linea { get; set; }
+        public string Sexo { get; set; }
+        public string Marca { get; set; }
+        public string Material { get; set; }
+    }
+}

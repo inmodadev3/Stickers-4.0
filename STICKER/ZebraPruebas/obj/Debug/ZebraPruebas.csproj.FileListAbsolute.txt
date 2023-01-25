@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\bin\Debug\ZebraPruebas.exe.config
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\bin\Debug\ZebraPruebas.exe
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\bin\Debug\ZebraPruebas.pdb
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\obj\Debug\ZebraPruebas.Form1.resources
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\obj\Debug\ZebraPruebas.Items.resources
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\obj\Debug\ZebraPruebas.Manifiestos.resources
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\obj\Debug\ZebraPruebas.Properties.Resources.resources
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\obj\Debug\ZebraPruebas.csproj.GenerateResource.Cache
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\obj\Debug\ZebraPruebas.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\obj\Debug\ZebraPruebas.exe
+C:\Users\user\source\repos\ZebraPruebas\ZebraPruebas\obj\Debug\ZebraPruebas.pdb

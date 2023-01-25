@@ -1,0 +1,16 @@
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\In Moda Fantasy.csproj.AssemblyReference.cache
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\In Moda Fantasy.exe.config
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Existencia_Producto.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Form1.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Imprimir_Sticker.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Items.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Login.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Manifiestos.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.ModalProducto.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Properties.Resources.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Rotulo.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.PanelSticker.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.StickerInformacion.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\ZebraPruebas.Verificacion_Factura_IM.resources
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\In Moda Fantasy.csproj.GenerateResource.cache
+C:\Users\Sistemas\Documents\Version 3.0.0\STICKER\ZebraPruebas\obj\Release\In Moda Fantasy.csproj.CoreCompileInputs.cache

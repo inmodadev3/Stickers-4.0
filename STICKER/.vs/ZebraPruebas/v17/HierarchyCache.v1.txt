@@ -1,0 +1,200 @@
+﻿++Solution 'ZebraPruebas' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ZebraPruebas.sln
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++In Moda Fantasy
+i:{00000000-0000-0000-0000-000000000000}:In Moda Fantasy
+++Connected Services
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\connected services\
+++Properties
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\properties\
+++References
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++Web References
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\web references\
+++WebServiceProducto
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\web references\webserviceproducto\
+++Resources
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\
+++App.config
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\app.config
+++BarCode.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\barcode.cs
+++ClassJson.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\classjson.cs
+++Conexion.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\conexion.cs
+++ConexionMySql.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\conexionmysql.cs
+++Existencia_Producto.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\existencia_producto.cs
+++Form1.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\form1.cs
+++Imprimir_Sticker.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\imprimir_sticker.cs
+++Imprimir_Sticker.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\imprimir_sticker.designer.cs
+++Imprimir_Sticker.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\imprimir_sticker.resx
+++In Moda Fantasy_1_TemporaryKey.pfx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\in moda fantasy_1_temporarykey.pfx
+++In Moda Fantasy_2_TemporaryKey.pfx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\in moda fantasy_2_temporarykey.pfx
+++In Moda Fantasy_3_TemporaryKey.pfx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\in moda fantasy_3_temporarykey.pfx
+++In Moda Fantasy_4_TemporaryKey.pfx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\in moda fantasy_4_temporarykey.pfx
+++In Moda Fantasy_5_TemporaryKey.pfx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\in moda fantasy_5_temporarykey.pfx
+++In Moda Fantasy_TemporaryKey.pfx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\in moda fantasy_temporarykey.pfx
+++Items.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\items.cs
+++Login.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\login.cs
+++logo.ico
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\logo.ico
+++Manifiestos.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\manifiestos.cs
+++ModalProducto.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\modalproducto.cs
+++packages.config
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\packages.config
+++Program.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\program.cs
+++Rotulo.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\rotulo.cs
+++Sticker.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\sticker.cs
+++StickerInformacion.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\stickerinformacion.cs
+++Verificacion_Factura_IM.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\verificacion_factura_im.cs
+++AssemblyInfo.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\properties\assemblyinfo.cs
+++Resources.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\properties\resources.resx
+++Settings.settings
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\properties\settings.settings
+++BarcodeStandard
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++IronBarCode
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++itextsharp
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++Microsoft.CSharp
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++MySql.Data
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++Newtonsoft.Json
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++OnBarcode.Barcode.WinForms
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++Spire.Barcode
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++Spire.License
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++Spire.Pdf
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Core
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Data
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Data.DataSetExtensions
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Deployment
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Drawing
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Drawing.Common
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.EnterpriseServices
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Net.Http
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Runtime.Serialization
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.ServiceModel
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Web
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Web.Services
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Windows.Forms
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Windows.Forms.DataVisualization
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Xml
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++System.Xml.Linq
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++zxing
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:
+++Items.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\items.png
+++logo.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\logo.png
+++MANIFIESTO.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\manifiesto.png
+++Menu.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\menu.png
+++Rotulo.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\rotulo.png
+++salir.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\salir.png
+++search1.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\search1.png
+++sinfoto.jpg
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\sinfoto.jpg
+++stick.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\stick.png
+++stickers.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\stickers.png
+++stk.png
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\resources\stk.png
+++Existencia_Producto.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\existencia_producto.designer.cs
+++Existencia_Producto.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\existencia_producto.resx
+++Form1.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\form1.designer.cs
+++Form1.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\form1.resx
+++Items.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\items.designer.cs
+++Items.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\items.resx
+++Login.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\login.designer.cs
+++Login.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\login.resx
+++Manifiestos.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\manifiestos.designer.cs
+++Manifiestos.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\manifiestos.resx
+++ModalProducto.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\modalproducto.designer.cs
+++ModalProducto.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\modalproducto.resx
+++Rotulo.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\rotulo.designer.cs
+++Rotulo.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\rotulo.resx
+++Sticker.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\sticker.designer.cs
+++Sticker.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\sticker.resx
+++StickerInformacion.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\stickerinformacion.designer.cs
+++StickerInformacion.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\stickerinformacion.resx
+++Verificacion_Factura_IM.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\verificacion_factura_im.designer.cs
+++Verificacion_Factura_IM.resx
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\verificacion_factura_im.resx
+++Resources.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{989a7a9c-95ba-4f0b-8cf5-d0022867f70f}:c:\users\santiago\desktop\version 2.6.0\sticker\zebrapruebas\properties\settings.designer.cs

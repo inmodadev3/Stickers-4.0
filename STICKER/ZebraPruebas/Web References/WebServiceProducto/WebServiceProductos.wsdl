@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:WSPortal" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:WSPortal" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:WSPortal">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsultarImagenProductoRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarImagenProductoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarProductoRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+    <wsdl:part name="intPrecio" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarProductoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarProductoClasificacionRequest">
+    <wsdl:part name="strClase" type="xsd:string" />
+    <wsdl:part name="strLinea" type="xsd:string" />
+    <wsdl:part name="strGrupo" type="xsd:string" />
+    <wsdl:part name="strTipo" type="xsd:string" />
+    <wsdl:part name="strWhere" type="xsd:string" />
+    <wsdl:part name="strRangoPrecio" type="xsd:string" />
+    <wsdl:part name="intPrecio" type="xsd:string" />
+    <wsdl:part name="intStart" type="xsd:string" />
+    <wsdl:part name="intEnd" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarProductoClasificacionResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ProductoRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ProductoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ProductoEnsambleRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ProductoEnsambleResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarProductoRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+    <wsdl:part name="intPrecio1" type="xsd:string" />
+    <wsdl:part name="intPrecio2" type="xsd:string" />
+    <wsdl:part name="intPrecio3" type="xsd:string" />
+    <wsdl:part name="intPrecio4" type="xsd:string" />
+    <wsdl:part name="intPrecio5" type="xsd:string" />
+    <wsdl:part name="strDescripcion" type="xsd:string" />
+    <wsdl:part name="strUdm" type="xsd:string" />
+    <wsdl:part name="intCantidad" type="xsd:string" />
+    <wsdl:part name="strDimension" type="xsd:string" />
+    <wsdl:part name="strMaterial" type="xsd:string" />
+    <wsdl:part name="intCantXpaca" type="xsd:string" />
+    <wsdl:part name="strUbicacion" type="xsd:string" />
+    <wsdl:part name="strObservacion" type="xsd:string" />
+    <wsdl:part name="strSexo" type="xsd:string" />
+    <wsdl:part name="strMaterialP" type="xsd:string" />
+    <wsdl:part name="strMarca" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarProductoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarUnidadesMedidaRequest" />
+  <wsdl:message name="ListarUnidadesMedidaResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarTblSexoPRequest" />
+  <wsdl:message name="ListarTblSexoPResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarTblMaterialPRequest" />
+  <wsdl:message name="ListarTblMaterialPResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarTblMarcaPRequest" />
+  <wsdl:message name="ListarTblMarcaPResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProductosRequest" />
+  <wsdl:message name="ListarProductosResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProductosPorFiltroWebRequest">
+    <wsdl:part name="strRgMinPrecio" type="xsd:string" />
+    <wsdl:part name="strRgMaxPrecio" type="xsd:string" />
+    <wsdl:part name="strPalabraClave" type="xsd:string" />
+    <wsdl:part name="strClase" type="xsd:string" />
+    <wsdl:part name="strPrecio" type="xsd:string" />
+    <wsdl:part name="strRgMaxPaginacion" type="xsd:string" />
+    <wsdl:part name="strRgMinPaginacion" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProductosPorFiltroWebResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarEstadoProductoRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+    <wsdl:part name="intEstado" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarEstadoProductoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProductosPorClasificacionRequest">
+    <wsdl:part name="strClase" type="xsd:string" />
+    <wsdl:part name="strLinea" type="xsd:string" />
+    <wsdl:part name="strGrupo" type="xsd:string" />
+    <wsdl:part name="strTipo" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProductosPorClasificacionResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProductosPorVectorRequest">
+    <wsdl:part name="strProductos" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProductosPorVectorResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarUbicacionProductosRequest">
+    <wsdl:part name="strProductos" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarUbicacionProductosResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ColoresPorProductoRequest">
+    <wsdl:part name="strIdProducto" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ColoresPorProductoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="PresentacionPorProductoRequest">
+    <wsdl:part name="strIdProducto" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="PresentacionPorProductoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarProductoJsonRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarProductoJsonResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="BusquedaProductosCoincidenciasRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+    <wsdl:part name="intNroResultados" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="BusquedaProductosCoincidenciasResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ImagenesProductoRequest">
+    <wsdl:part name="strReferencia" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ImagenesProductoResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="WSPortalPortType">
+    <wsdl:operation name="ConsultarImagenProducto">
+      <wsdl:input message="tns:ConsultarImagenProductoRequest" />
+      <wsdl:output message="tns:ConsultarImagenProductoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarProducto">
+      <wsdl:input message="tns:ConsultarProductoRequest" />
+      <wsdl:output message="tns:ConsultarProductoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarProductoClasificacion">
+      <wsdl:input message="tns:ConsultarProductoClasificacionRequest" />
+      <wsdl:output message="tns:ConsultarProductoClasificacionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="Producto">
+      <wsdl:input message="tns:ProductoRequest" />
+      <wsdl:output message="tns:ProductoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ProductoEnsamble">
+      <wsdl:input message="tns:ProductoEnsambleRequest" />
+      <wsdl:output message="tns:ProductoEnsambleResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarProducto">
+      <wsdl:input message="tns:ActualizarProductoRequest" />
+      <wsdl:output message="tns:ActualizarProductoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarUnidadesMedida">
+      <wsdl:input message="tns:ListarUnidadesMedidaRequest" />
+      <wsdl:output message="tns:ListarUnidadesMedidaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTblSexoP">
+      <wsdl:input message="tns:ListarTblSexoPRequest" />
+      <wsdl:output message="tns:ListarTblSexoPResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTblMaterialP">
+      <wsdl:input message="tns:ListarTblMaterialPRequest" />
+      <wsdl:output message="tns:ListarTblMaterialPResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTblMarcaP">
+      <wsdl:input message="tns:ListarTblMarcaPRequest" />
+      <wsdl:output message="tns:ListarTblMarcaPResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProductos">
+      <wsdl:input message="tns:ListarProductosRequest" />
+      <wsdl:output message="tns:ListarProductosResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProductosPorFiltroWeb">
+      <wsdl:input message="tns:ListarProductosPorFiltroWebRequest" />
+      <wsdl:output message="tns:ListarProductosPorFiltroWebResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoProducto">
+      <wsdl:input message="tns:ActualizarEstadoProductoRequest" />
+      <wsdl:output message="tns:ActualizarEstadoProductoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProductosPorClasificacion">
+      <wsdl:input message="tns:ListarProductosPorClasificacionRequest" />
+      <wsdl:output message="tns:ListarProductosPorClasificacionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProductosPorVector">
+      <wsdl:input message="tns:ListarProductosPorVectorRequest" />
+      <wsdl:output message="tns:ListarProductosPorVectorResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarUbicacionProductos">
+      <wsdl:input message="tns:ListarUbicacionProductosRequest" />
+      <wsdl:output message="tns:ListarUbicacionProductosResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ColoresPorProducto">
+      <wsdl:input message="tns:ColoresPorProductoRequest" />
+      <wsdl:output message="tns:ColoresPorProductoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="PresentacionPorProducto">
+      <wsdl:input message="tns:PresentacionPorProductoRequest" />
+      <wsdl:output message="tns:PresentacionPorProductoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarProductoJson">
+      <wsdl:input message="tns:ConsultarProductoJsonRequest" />
+      <wsdl:output message="tns:ConsultarProductoJsonResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="BusquedaProductosCoincidencias">
+      <wsdl:input message="tns:BusquedaProductosCoincidenciasRequest" />
+      <wsdl:output message="tns:BusquedaProductosCoincidenciasResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ImagenesProducto">
+      <wsdl:input message="tns:ImagenesProductoRequest" />
+      <wsdl:output message="tns:ImagenesProductoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSPortalBinding" type="tns:WSPortalPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="ConsultarImagenProducto">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ConsultarImagenProducto" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarProducto">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ConsultarProducto" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarProductoClasificacion">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ConsultarProductoClasificacion" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Producto">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/Producto" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProductoEnsamble">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ProductoEnsamble" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarProducto">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ActualizarProducto" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarUnidadesMedida">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarUnidadesMedida" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTblSexoP">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarTblSexoP" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTblMaterialP">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarTblMaterialP" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTblMarcaP">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarTblMarcaP" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProductos">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarProductos" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProductosPorFiltroWeb">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarProductosPorFiltroWeb" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEstadoProducto">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ActualizarEstadoProducto" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProductosPorClasificacion">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarProductosPorClasificacion" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProductosPorVector">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarProductosPorVector" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarUbicacionProductos">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ListarUbicacionProductos" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ColoresPorProducto">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ColoresPorProducto" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PresentacionPorProducto">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/PresentacionPorProducto" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarProductoJson">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ConsultarProductoJson" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BusquedaProductosCoincidencias">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/BusquedaProductosCoincidencias" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImagenesProducto">
+      <soap:operation soapAction="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php/ImagenesProducto" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSPortal">
+    <wsdl:port name="WSPortalPort" binding="tns:WSPortalBinding">
+      <soap:address location="http://10.10.10.128/webserviceportal/WebService/WebServiceProductos.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
